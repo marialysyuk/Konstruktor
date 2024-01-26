@@ -28,7 +28,7 @@ The method consists of three main steps:
 2) Reladtion detection
 3) SPARQL query that parses the KG (Wikidata)
 
-<img src="KonstruKtor_scheme.png" alt="drawing" width="700" height ="300"/>
+<img src="KonstruKtor_scheme.png" alt="drawing" width="600" height ="200"/>
 
 For entity extraction is trained customly trained Spacy NER.
 For entity linking are used [mGENRE](https://github.com/facebookresearch/GENRE) and [BELA](https://github.com/facebookresearch/BELA).
@@ -38,5 +38,16 @@ The adapted version of the relation classification is taken from the [Huang, Y.,
 
 and the adapted version of relation ranking is taken from [Hu, N., Wu, Y., Qi, G., Min, D., Chen, J., Pan, J. Z., & Ali, Z. (2023). An empirical study of pre-trained language models in simple knowledge graph question answering. World Wide Web, 1-32.](https://github.com/HuuuNan/PLMs-in-Practical-KBQA).
 
+## Requirements
+
+To run the repository use Dockefile and the corresponding requirements.txt file.
+
+## Datasets
+
+In the **Datasets** section you can find subsets of datasets used in the paper.
+
+Moreover, in the **Filtration** section is presented code for the filtering process of each dataset.
+
+Originally, datasets are taken from [SimpleQuestionsWikidata](https://github.com/askplatypus/wikidata-simplequestions), [RuBQ 2.0](https://github.com/vladislavneon/RuBQ), [LC-QuAD2.0](https://github.com/AskNowQA/LC-QuAD2.0) and [Mintaka](https://github.com/amazon-science/mintaka).
 
 
