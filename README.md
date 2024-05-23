@@ -1,4 +1,4 @@
-# Konstructor: A Strong Baseline for Simple KG Question Answering
+# Konstruktor: A Strong Baseline for Simple KG Question Answering
 
 **Abstract.** While being one of the most popular question types, sim-
 ple questions such as “Who is the author of Cinderella?”, are still not
